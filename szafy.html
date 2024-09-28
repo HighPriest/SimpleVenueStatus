@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HS - Mapa Interaktywna</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Mapa</a>
+        <a href="szafy.html">Szafy</a>
+    </nav>
+    <div id="racks">
+        
+    </div>
+    
+</body>
+
+<script>
+    var pingCounter = 0;
+    async function checkServerStatus(url) {
+            return new Promise((resolve, reject) => {
+                fetch("http://" + url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.status;
+                    }).then(data => {
+                        resolve(data === 200 ? true : false);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        reject(error);
+                    });
+            });
+        }
+
+
+    var racksData;
+    var pingDevices = [];
+    var racksDataPromise = fetch("data/racks.json")
+        .then(response => response.json())
+        .then(racksData =>
+        {
+            var racks = document.getElementById("racks");
+            for (id_room in racksData) {
+                for (id_rack in racksData[id_room]) {
+                    var rack_node = document.createElement("div");
+                    rack_node.className = "rack " + id_room + " " + id_rack;
+                    rack_node.innerHTML = "<img src='RACK 42u.svg'><div class='devices'></div>";
+                    rack_node["lastChild"].style.top = "20px";
+                    racksData[id_room][id_rack].forEach(device => {
+                        var device_node = document.createElement("div");
+                        device_node.className = "device " + device.type;
+                        device_node.style.top = (42 - device.unit) * 12.5 + "px";
+                        device_node.textContent = device.name + " " + (device.model == null ? "" : device.model);
+                        rack_node["lastChild"].appendChild(device_node);
+                        if (device.ip != null && device.ip != undefined) {
+                            var _device = device;
+                            _device.node = rack_node["lastChild"].lastChild;
+                            var status_div = document.createElement("div");
+                            status_div.style = "position: absolute; left: 0; top: 0; width: 12px; height:50%; background-color: yellow;";
+                            _device.node.appendChild(status_div);
+                            checkServerStatus(device.ip).then(result => {_device.status = result;
+                                if (result) {
+                                    _device.node.lastChild.style.backgroundColor = "green";
+                                }
+                                pingDevices.push(_device);
+                            });
+                        }
+                    });
+                    rack_node.insertAdjacentHTML("beforeend","<div class='location_name'>" + id_room + "</div>");
+                    racks.appendChild(rack_node);
+                }
+            }
+        });
+
+    try {
+        checkServerStatus(pingDevices[pingCounter].ip);
+        pingCounter += 1; 
+    } catch (error) {
+        
+    } finally {
+        setInterval((params) => {
+            checkServerStatus(pingDevices[pingCounter].ip);
+            pingCounter = (pingCounter + 1) % pingDevices.length;
+            console.log(pingCounter);
+        }, 6000); // repeat every minute
+    }
+    
+</script>
+</html>

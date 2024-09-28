@@ -1,0 +1,1155 @@
+{
+    "mdf": {
+        "Main": [
+            {
+                "unit" : 41,
+                "type" : "switch",
+                "name" : "data_test",
+                "ports" : 8,
+                "ip": "127.0.0.1:5500",
+                "devices" : [
+                    ["panel_lan","unit","port"],
+                    ["device", "name"]
+                ]
+            },
+            {
+                "unit" : 40,
+                "type" : "panel_lan",
+                "name" : "data_test",
+                "ports" : 8,
+                "devices" : [
+                    ["camera",0,"k002"],
+                    ["gniazdo",3,1,1]
+                ]
+            },
+            {
+                "unit" : 39,
+                "type" : "cable_organiser",
+                "name" : ""
+            },
+            {
+                "unit" : 38,
+                "type" : "fiber_panel",
+                "name" : "Fiber_MDF2",
+                "pairs" : [1,1,1,1,1,1,1,1]
+            },
+            {
+                "unit" : 37,
+                "type" : "fiber_panel",
+                "name" : "Fiber_IDF0+1",
+                "pairs" : [1,1,1,2,0,0,0,0,1,1,1,2,
+                            1,1,1,2,0,0,0,0,1,1,1,2]
+            },
+            {
+                "unit" : 36,
+                "type" : "fiber_panel",
+                "name" : "Fiber_IDF2+3",
+                "pairs" : [1,1,1,2,0,0,0,0,1,1,1,2,
+                            1,1,2,2,0,0,0,0,1,1,1,1]
+            },
+            {
+                "unit" : 35,
+                "type" : "fiber_panel",
+                "name" : "Fiber_IDF4+5",
+                "pairs" : [1,1,1,2,0,0,0,0,1,1,1,2,
+                            1,1,1,2,0,0,0,0,1,1,1,2]
+            },
+            {
+                "unit" : 34,
+                "type" : "fiber_panel",
+                "name" : "Fiber_IDF6+7",
+                "pairs" : [1,1,1,2,0,0,0,0,1,1,1,2,
+                            1,1,1,2,0,0,0,0,1,1,1,2]
+            },
+            {
+                "unit" : 33,
+                "type" : "fiber_panel",
+                "name" : "Fiber_IDF8+9",
+                "pairs" : [1,1,1,2,0,0,0,0,1,1,1,2,
+                            1,1,1,2,0,0,0,0,1,1,1,2]
+            },
+            {
+                "unit" : 32,
+                "type" : "cable_organiser",
+                "name" : ""
+            },
+            {
+                "unit": 31,
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 26,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": 27,
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit" : 26,
+                "type" : "cable_organiser",
+                "name" : ""
+            },
+            {
+                "unit" : 23,
+                "type" : "media_converter",
+                "name" : "Media Converter",
+                "ports" : 9
+            },
+            {
+                "unit" : 21,
+                "type" : "switch",
+                "name" : "DCN",
+                "model" : "DCS"
+            },
+            {
+                "unit" : 19,
+                "type" : "network_controller",
+                "name" : "Cisco",
+                "model" : "BFG2000",
+                "ports" : 8
+            }
+
+        ],
+        "Secondary": [
+            {
+                "unit": "41",
+                "type": "fiber_panel",
+                "name": "Fiber_panel",
+                "pairs": [
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "C",
+                    "C",
+                    "B",
+                    "B"
+                ]
+            },
+            {
+                "unit": "39",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 24,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "37",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 24,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "35",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": 33,
+                "type": "cable_organiser",
+                "name": "UPC_Fiber_Organiser"
+            },
+            {
+                "unit": 32,
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 8,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": 30,
+                "type": "router",
+                "name": "MikroTik",
+                "model": "PlaceHolderhek",
+                "ports": 10,
+                "ip": "127.0.0.1:5500"
+            }
+        ]
+    },
+    "idf0": {
+        "Main": [
+            {
+                "unit": "41",
+                "type": "fiber_panel",
+                "name": "Fiber_panel",
+                "pairs": [
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "C",
+                    "C",
+                    "B",
+                    "B"
+                ]
+            },
+            {
+                "unit": "35",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "33",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "22",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "21",
+                "type": "panel_lan",
+                "name": "LAN_1",
+                "ports": 24
+            },
+            {
+                "unit": "20",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "17",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "16",
+                "type": "phone_panel",
+                "name": "TELEFONY",
+                "ports": 50
+            }
+        ]
+    },
+    "idf1": {
+        "Main": [
+            {
+                "unit": "41",
+                "type": "fiber_panel",
+                "name": "Fiber_panel",
+                "pairs": [
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "C",
+                    "C",
+                    "B",
+                    "B"
+                ]
+            },
+            {
+                "unit": "40",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "39",
+                "type": "panel_cctv",
+                "name": "CCTV_1",
+                "ports": 24
+            },
+            {
+                "unit": "38",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "37",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "36",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "35",
+                "type": "panel_cctv",
+                "name": "CCTV_2",
+                "ports": 24
+            },
+            {
+                "unit": "33",
+                "type": "panel_lan",
+                "name": "LAN_1",
+                "ports": 24
+            },
+            {
+                "unit": "32",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "30",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "29",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "28",
+                "type": "panel_lan",
+                "name": "LAN_2",
+                "ports": 24
+            },
+            {
+                "unit": "27",
+                "type": "panel_lan",
+                "name": "LAN_3",
+                "ports": 24
+            },
+            {
+                "unit": "26",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "24",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 26,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "23",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "22",
+                "type": "panel_lan",
+                "name": "LAN_4",
+                "ports": 24
+            },
+            {
+                "unit": "21",
+                "type": "panel_lan",
+                "name": "LAN_5",
+                "ports": 24
+            },
+            {
+                "unit": "20",
+                "type": "cable_organiser",
+                "name": ""
+            }
+        ]
+    },
+    "idf2": {
+        "Main": [
+            {
+                "unit": "42",
+                "type": "something",
+                "name": "something"
+            },
+            {
+                "unit": "41",
+                "type": "fiber_panel",
+                "name": "Fiber_panel",
+                "pairs": [
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "C",
+                    "C",
+                    "B",
+                    "B"
+                ]
+            },
+            {
+                "unit": "40",
+                "type": "fiber_panel",
+                "name": "Unknown_Fiber_panel",
+                "pairs": [
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "B"
+                ]
+            },
+            {
+                "unit": "39",
+                "type": "panel_cctv",
+                "name": "CCTV_1",
+                "ports": 24
+            },
+            {
+                "unit": "38",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "37",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "36",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "35",
+                "type": "panel_cctv",
+                "name": "CCTV_2",
+                "ports": 24
+            },
+            {
+                "unit": "34",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "33",
+                "type": "panel_lan",
+                "name": "LAN_1",
+                "ports": 24
+            },
+            {
+                "unit": "32",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "30",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 8,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "29",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "28",
+                "type": "panel_lan",
+                "name": "LAN_2",
+                "ports": 24
+            },
+            {
+                "unit": "27",
+                "type": "panel_lan",
+                "name": "LAN_3",
+                "ports": 24
+            },
+            {
+                "unit": "26",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "24",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 48,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "23",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "22",
+                "type": "panel_lan",
+                "name": "LAN_4",
+                "ports": 24
+            },
+            {
+                "unit": "21",
+                "type": "panel_lan",
+                "name": "LAN_5",
+                "ports": 24
+            },
+            {
+                "unit": "20",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "18",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "17",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "16",
+                "type": "panel_lan",
+                "name": "LAN_6",
+                "ports": 24
+            },
+            {
+                "unit": "15",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "14",
+                "type": "panel_lan",
+                "name": "LAN_7",
+                "ports": 24
+            },
+            {
+                "unit": "13",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "12",
+                "type": "panel_lan",
+                "name": "LAN_8",
+                "ports": 24
+            }
+        ]
+    },
+    "idf3": {
+        "Main": [
+            {
+                "unit": "41",
+                "type": "fiber_panel",
+                "name": "Fiber_panel",
+                "pairs": [
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "C",
+                    "C",
+                    "B",
+                    "B"
+                ]
+            },
+            {
+                "unit": "39",
+                "type": "panel_cctv",
+                "name": "CCTV_1",
+                "ports": 24
+            },
+            {
+                "unit": "38",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "37",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "35",
+                "type": "panel_lan",
+                "name": "LAN_1",
+                "ports" : 8,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "33",
+                "type": "panel_lan",
+                "name": "LAN_2",
+                "ports": 24,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "28",
+                "type": "phone_panel",
+                "name": "TELEFONY",
+                "ports": 50
+            }
+        ]
+    },
+    "idf4": {
+        "Main": [
+            {
+                "unit": "41",
+                "type": "fiber_panel",
+                "name": "Fiber_panel",
+                "pairs": [
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "C",
+                    "C",
+                    "B",
+                    "B"
+                ]
+            },
+            {
+                "unit": "39",
+                "type": "panel_cctv",
+                "name": "CCTV_1",
+                "ports": 24
+            },
+            {
+                "unit": "38",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "37",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "35",
+                "type": "panel_lan",
+                "name": "LAN_1",
+                "ports": 24
+            },
+            {
+                "unit": "34",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "31",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "30",
+                "type": "panel_lan",
+                "name": "LAN_2",
+                "ports": 24
+            },
+            {
+                "unit": "29",
+                "type": "panel_lan",
+                "name": "LAN_3",
+                "ports": 24
+            },
+            {
+                "unit": "28",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "26",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 26,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "25",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "24",
+                "type": "panel_lan",
+                "name": "LAN_4",
+                "ports": 24
+            },
+            {
+                "unit": "23",
+                "type": "panel_lan",
+                "name": "LAN_5",
+                "ports": 24
+            },
+            {
+                "unit": "22",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 26,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "20",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "19",
+                "type": "panel_lan",
+                "name": "LAN_6",
+                "ports": 24
+            },
+            {
+                "unit": "18",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "17",
+                "type": "patch_panel",
+                "name": "TELEFON_1",
+                "ports": 24
+            },
+            {
+                "unit": "16",
+                "type": "panel_lan",
+                "name": "LAN_7",
+                "ports": 24
+            }
+        ]
+    },
+    "idf5": {
+        "Main": [
+            {
+                "unit": "41",
+                "type": "fiber_panel",
+                "name": "Fiber_panel",
+                "pairs": [
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "C",
+                    "C",
+                    "B",
+                    "B"
+                ]
+            },
+            {
+                "unit": "39",
+                "type": "panel_cctv",
+                "name": "CCTV_1",
+                "ports": 24
+            },
+            {
+                "unit": "38",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "37",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "34",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "33",
+                "type": "panel_lan",
+                "name": "LAN_1",
+                "ports": 24
+            },
+            {
+                "unit": "32",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "28",
+                "type": "panel_lan",
+                "name": "LAN_2",
+                "ports": 24
+            },
+            {
+                "unit": "27",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "26",
+                "type": "phone_panel",
+                "name": "TELEFONY",
+                "ports": 50
+            },
+            {
+                "unit": "25",
+                "type": "cable_organiser",
+                "name": ""
+            }
+        ]
+    },
+    "idf6": {
+        "Main": [
+            {
+                "unit": "41",
+                "type": "fiber_panel",
+                "name": "Fiber_panel",
+                "pairs": [
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "C",
+                    "C",
+                    "B",
+                    "B"
+                ]
+            },
+            {
+                "unit": "39",
+                "type": "panel_cctv",
+                "name": "CCTV_1",
+                "ports": 24
+            },
+            {
+                "unit": "38",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "36",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "35",
+                "type": "panel_cctv",
+                "name": "CCTV_1",
+                "ports": 24
+            },
+            {
+                "unit": "34",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "33",
+                "type": "panel_lan",
+                "name": "LAN_1",
+                "ports": 24
+            },
+            {
+                "unit": "32",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "29",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "28",
+                "type": "panel_lan",
+                "name": "LAN_2",
+                "ports": 24
+            },
+            {
+                "unit": "27",
+                "type": "panel_lan",
+                "name": "LAN_3",
+                "ports": 24
+            },
+            {
+                "unit": "26",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "24",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "23",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "22",
+                "type": "panel_lan",
+                "name": "LAN_4",
+                "ports": 24
+            },
+            {
+                "unit": "21",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 26,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "18",
+                "type": "panel_lan",
+                "name": "LAN_5",
+                "ports": 24
+            },
+            {
+                "unit": "17",
+                "type": "panel_lan",
+                "name": "LAN_6",
+                "ports": 24
+            },
+            {
+                "unit": "14",
+                "type": "phone_panel",
+                "name": "TELEFONY",
+                "ports": 50
+            }
+        ]
+    },
+    "idf7": {
+        "Main": [
+            {
+                "unit": "41",
+                "type": "fiber_panel",
+                "name": "Fiber_panel",
+                "pairs": [
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "C",
+                    "C",
+                    "B",
+                    "B"
+                ]
+            },
+            {
+                "unit": "39",
+                "type": "panel_cctv",
+                "name": "CCTV_1",
+                "ports": 24
+            },
+            {
+                "unit": "38",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "37",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "36",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "35",
+                "type": "panel_cctv",
+                "name": "CCTV_2",
+                "ports": 24
+            },
+            {
+                "unit": "33",
+                "type": "panel_lan",
+                "name": "LAN_1",
+                "ports": 24
+            },
+            {
+                "unit": "28",
+                "type": "panel_lan",
+                "name": "LAN_2",
+                "ports": 24
+            },
+            {
+                "unit": "27",
+                "type": "panel_lan",
+                "name": "LAN_3",
+                "ports": 24
+            },
+            {
+                "unit": "26",
+                "type": "phone_panel",
+                "name": "TELEFONY",
+                "ports": 50
+            }
+        ],
+        "Secondary": [
+            {
+                "unit" : 26,
+                "type" : "fiber_panel",
+                "name" : "Fiber_panel",
+                "pairs" : [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0]
+            },
+            {
+                "unit" : 4,
+                "type" : "media_converter",
+                "name" : "Media Converter",
+                "ports" : 4
+            },
+            {
+                "unit" : 3,
+                "type" : "switch",
+                "name" : "Cisco",
+                "model" : "",
+                "ports" : 28,
+                "ip": "127.0.0.1:5500"
+            }
+        ]
+    },
+    "idf8": {
+        "Main": [
+            {
+                "unit": "41",
+                "type": "fiber_panel",
+                "name": "Fiber_panel",
+                "pairs": [
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "C",
+                    "C",
+                    "B",
+                    "B"
+                ]
+            },
+            {
+                "unit": "39",
+                "type": "panel_cctv",
+                "name": "CCTV_1",
+                "ports": 24
+            },
+            {
+                "unit": "38",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "37",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "36",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "35",
+                "type": "panel_cctv",
+                "name": "CCTV_2",
+                "ports": 24
+            },
+            {
+                "unit": "34",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "33",
+                "type": "panel_lan",
+                "name": "LAN_1",
+                "ports": 24
+            },
+            {
+                "unit": "32",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "30",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 28,
+                "ip": "127.0.0.1:5500"
+            },
+            {
+                "unit": "29",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "27",
+                "type": "panel_lan",
+                "name": "LAN_2",
+                "ports": 24
+            },
+            {
+                "unit": "26",
+                "type": "cable_organiser",
+                "name": ""
+            },
+            {
+                "unit": "25",
+                "type": "phone_panel",
+                "name": "TELEFONY",
+                "ports": 50
+            },
+            {
+                "unit": "23",
+                "type": "switch",
+                "name": "Switcheroo3000",
+                "model": "PlaceHolderhek",
+                "ports": 8,
+                "ip": "127.0.0.1:5500"
+            }
+        ]
+    }
+}

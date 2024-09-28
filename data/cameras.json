@@ -1,0 +1,946 @@
+[
+ {
+"k001" : {
+    "Network":{         "IDF" : "#N/A"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "#N/A"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K01"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.1"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k002" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "2"
+        ,"SwitchPort" : "16"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K02"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.2"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k003" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "11"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K03"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.3"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k004" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "15"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K04"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.4"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k005" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "7"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K05"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.5"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k006" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "5"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K06"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.6"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k007" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "13"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K07"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.7"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k008" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "2"
+        ,"SwitchPort" : "1"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K08"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.8"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k009" : {
+    "Network":{         "IDF" : "1_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "1"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K09"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.9"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k010" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "18"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K10"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.10"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k011" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "20"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K11"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.11"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k012" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "22"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K12"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.12"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k013" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "24"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K13"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.13"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k014" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "2"
+        ,"SwitchPort" : "6"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K14"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.14"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k015" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "19"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K15"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.15"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k016" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "17"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K16"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.16"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k017" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "23"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K17"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.17"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k018" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "21"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K18"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.18"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k019" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "10"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K19"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.19"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k020" : {
+    "Network":{         "IDF" : "6_1"
+        ,"PatchPanel" : "2"
+        ,"SwitchPort" : "14"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K20"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.20"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k021" : {
+    "Network":{         "IDF" : "5_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "1"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K21"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.21"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k022" : {
+    "Network":{         "IDF" : "5_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "2"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K22"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.22"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k023" : {
+    "Network":{         "IDF" : "5_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "5"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K23"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.23"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k024" : {
+    "Network":{         "IDF" : "5_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "6"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K24"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.24"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k025" : {
+    "Network":{         "IDF" : "5_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "8"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K25"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.25"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k026" : {
+    "Network":{         "IDF" : "5_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "3"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K26"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.26"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k027" : {
+    "Network":{         "IDF" : "5_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "4"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K27"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.27"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k028" : {
+    "Network":{         "IDF" : "5_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "7"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K28"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.28"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k029" : {
+    "Network":{         "IDF" : "4_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "2"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K29"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.29"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k030" : {
+    "Network":{         "IDF" : "4_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "4"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K30"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.30"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k031" : {
+    "Network":{         "IDF" : "4_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "6"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K31"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.31"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k032" : {
+    "Network":{         "IDF" : "4_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "8"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K32"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.32"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k033" : {
+    "Network":{         "IDF" : "4_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "10"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K33"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.33"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k034" : {
+    "Network":{         "IDF" : "4_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "12"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K34"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.34"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k035" : {
+    "Network":{         "IDF" : "4_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "14"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K35"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.35"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k036" : {
+    "Network":{         "IDF" : "4_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "16"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K36"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.36"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k037" : {
+    "Network":{         "IDF" : "4_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "23"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K37"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.37"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k038" : {
+    "Network":{         "IDF" : "3_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "2"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K38"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.38"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k039" : {
+    "Network":{         "IDF" : "3_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "6"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K39"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.39"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k040" : {
+    "Network":{         "IDF" : "3_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "8"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K40"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.40"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k041" : {
+    "Network":{         "IDF" : "3_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "10"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K41"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.41"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k042" : {
+    "Network":{         "IDF" : "3_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "14"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K42"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.42"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k043" : {
+    "Network":{         "IDF" : "3_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "4"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K43"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.43"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k044" : {
+    "Network":{         "IDF" : "3_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "11"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K44"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.44"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k045" : {
+    "Network":{         "IDF" : "2_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "2"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K45"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.45"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k046" : {
+    "Network":{         "IDF" : "2_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "1"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K46"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.46"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k047" : {
+    "Network":{         "IDF" : "2_2"
+        ,"PatchPanel" : "2"
+        ,"SwitchPort" : "5"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K47"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.47"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k048" : {
+    "Network":{         "IDF" : "2_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "3"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K48"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.48"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k049" : {
+    "Network":{         "IDF" : "2_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "4"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K49"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.49"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k050" : {
+    "Network":{         "IDF" : "2_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "6"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K50"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.50"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k051" : {
+    "Network":{         "IDF" : "2_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "5"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K51"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.51"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k052" : {
+    "Network":{         "IDF" : "2_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "7"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K52"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.52"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k053" : {
+    "Network":{         "IDF" : "2_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "8"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K53"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.53"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k054" : {
+    "Network":{         "IDF" : "2_2"
+        ,"PatchPanel" : "2"
+        ,"SwitchPort" : "10"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K54"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.54"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k055" : {
+    "Network":{         "IDF" : "2_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "10"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K55"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.55"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k056" : {
+    "Network":{         "IDF" : "2_2"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "2"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K56"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.56"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k057" : {
+    "Network":{         "IDF" : "2_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "11"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K57"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.57"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k058" : {
+    "Network":{         "IDF" : "1_2"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "12"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K58"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.58"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+},
+"k059" : {
+    "Network":{         "IDF" : "2_1"
+        ,"PatchPanel" : "1"
+        ,"SwitchPort" : "9"
+        ,"NVR" : "Tesla Model S"
+        ,"Hostname":"K59"
+        ,"MAC":"PL:AC:EH:OL:DE:RX"
+        ,"IP":"10.0.0.59"
+    }
+    ,"Model":"SuperCam3000"
+    ,"PTZ":"Nie"
+    ,"Rodzaj zasilania":"POE"
+    ,"Moc":"12W"
+    ,"Max. Rozdz.":"2288x1712"
+    ,"Status": 0
+}}]

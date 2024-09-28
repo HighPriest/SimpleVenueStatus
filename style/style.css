@@ -1,0 +1,101 @@
+nav {
+    position: fixed;
+    bottom: 0;
+    width:50%;
+}
+
+main {
+    min-width: 75%;
+    overflow: hidden;
+}
+#map {
+    width: 100%;
+}
+
+#idf path:hover{
+    fill: #ff0000 !important;
+}
+
+#infoMenu {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    z-index: 1;
+}
+
+#sideMenu {
+    position:fixed;
+    top:0;
+    right:0;
+    height: 100%;
+    z-index:1;
+    background:#1676877a;
+}
+
+#sideMenu .close {
+    position: absolute;
+    left: -12px;
+    top: 0;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+/* Kamery */
+
+#cameras {
+    position: relative;
+    display: inline-block;
+}
+
+/* Szafy */
+
+#racks {
+    position: relative;
+    display: inline-block;
+}
+
+#racks .rack{
+    position: relative;
+    display: inline-block;
+}
+
+#racks .rack .location_name {
+    position: absolute;
+    bottom: 6px;
+    font-weight: bold;
+    color: dimgrey;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+#racks .rack .devices {
+    position: absolute;
+    top: 70px;
+    margin: 0px 17px;
+    width: 134px;
+}
+#racks .rack .devices div {
+    font-size: 10px;
+    width: 100%;
+    height: 10.5px;
+    position: absolute;
+    top: 0;
+    border: solid 1px;
+    background-color: red;
+    text-align: center;
+}
+
+#racks .rack .devices .cable_organiser {
+    background-color:burlywood;
+}
+
+/* Kamery */
+
+#cameras0 path:hover, #cameras0 use:hover {
+    opacity: 0.5;
+}
+
+#cameras1 path:hover, #cameras1 use:hover {
+    opacity: 0.5;
+}
